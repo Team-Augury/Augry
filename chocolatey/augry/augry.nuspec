@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Augry's release workflow sets the version here and the URL and checksum in tools/chocolateyinstall.ps1 on every release, then packs and pushes it. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>augry</id>
+    <version>0.6.5</version>
+    <packageSourceUrl>https://github.com/Team-Augury/Augry/tree/main/chocolatey/augry</packageSourceUrl>
+    <owners>LiamDotPro</owners>
+    <title>Augry</title>
+    <authors>Team Augury</authors>
+    <projectUrl>https://augry.dev/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Team-Augury/Augry@main/chocolatey/icon.png</iconUrl>
+    <licenseUrl>https://augry.dev/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <bugTrackerUrl>https://github.com/Team-Augury/Augry/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/Team-Augury/Augry/releases</releaseNotes>
+    <tags>augry ai claude codex coding-agent terminal git developer-tools</tags>
+    <summary>Run coding agents side by side, with git, review, notes and processes.</summary>
+    <description><![CDATA[Augry is a desktop app for running coding agents such as Claude Code and Codex side by side in terminal panes.
+
+- Each pane knows its git branch and worktree.
+- Processes chain agents, shell commands and reviews into runs you can watch, stop and resume.
+- Notes and run logs keep what the agents did in one place.
+
+This package installs the machine-wide MSI. Chocolatey handles updates, so use `choco upgrade augry`.
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
