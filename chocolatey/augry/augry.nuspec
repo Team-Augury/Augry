@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>augry</id>
-    <version>0.6.5</version>
+    <version>0.7.0</version>
     <packageSourceUrl>https://github.com/Team-Augury/Augry/tree/main/chocolatey/augry</packageSourceUrl>
     <owners>LiamDotPro</owners>
     <title>Augry</title>
